@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/id_user_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/user_text_view"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:text="Usuario"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/password_text_view"
+        android:layout_width="33dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:text="Contraseña"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/full_name_text_view"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:text="nombre"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/role_text_view"
+        android:layout_width="23dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="51dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="40dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/marks_text_view"
+        android:layout_width="31dp"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/failures_text_view"
+        android:layout_width="25dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/estado_text_view"
+        android:layout_width="15dp"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>
